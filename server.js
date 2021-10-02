@@ -14,3 +14,6 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workouts', {
     useNewUrlParser: true,
     useFindAndModify: false
 });
+
+app.use(require('./routes/api'));
+app.use(require('./routes/html'));
