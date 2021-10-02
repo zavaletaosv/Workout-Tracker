@@ -42,3 +42,5 @@ router.put('/api/workouts/:id', ({ params, body }, res) => {
         res.status(400);
     });
 });
+
+module.exports = router;
