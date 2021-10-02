@@ -31,3 +31,14 @@ router.post('/api/workouts', ({ body }, res) => {
         res.status(400);
     });
 });
+
+router.put('/api/workouts/:id', ({ params, body }, res) => {
+    db.Workout.findOneAndUpdate(
+        { _id: params.id },
+        { $push: {exercises: body }},
+        { new: true }
+    )
+    .catch(err => {
+        res.status(400);
+    });
+});
