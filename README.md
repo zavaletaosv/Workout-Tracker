@@ -8,7 +8,7 @@ Nosql: Workout Tracker
 
 Repository Link: https://github.com/zavaletaosv/Workout-Tracker
 
-Deployed Website Link: 
+Deployed Website Link: https://workout-tracker-oz.herokuapp.com/
 ## Usage
 
 Once deployed, the application appears as the image attached below on a traditional desktop.
