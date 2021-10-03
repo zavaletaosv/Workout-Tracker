@@ -2,8 +2,7 @@
 Nosql: Workout Tracker
 ## Description
 
-
-
+This full stack application allows users to post their workouts as well as keep track of progress. Upon page load, the user is presented the option to start a new workout or create a new workout. The user is also able to view their progress chart by clicking `Dashboard`.
 ## Links
 
 Repository Link: https://github.com/zavaletaosv/Workout-Tracker
@@ -12,12 +11,6 @@ Deployed Website Link: https://workout-tracker-oz.herokuapp.com/
 ## Usage
 
 Once deployed, the application appears as the image attached below on a traditional desktop.
-
-
-
-## Resources
-
-
 
 ## Credits
 
